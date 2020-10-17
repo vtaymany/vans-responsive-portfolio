@@ -1,5 +1,9 @@
+main.container {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
