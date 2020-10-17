@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSS files -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/additional.css">
 
@@ -11,7 +12,7 @@
 <body>
     <!-- Start navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Portfolio</a>
+      <h1><a class="navbar-brand" href="./index.html">Portfolio</a></h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,10 +34,48 @@
     <!-- End navbar -->
     <!-- Start main section -->
     <main role="main" class="container">
-        <h1 class="mt-5">Sticky footer</h1>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
-        <p>Use <a href="../sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need be, too.</p>
-      </main>
+      <div class="row">
+        <div class="col">
+          <p class="text-center">This portfolio demonstrates nested rows and columns</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col">
+            <div class="row no-gutters">
+              <div class="col">
+                <p class="text-right">Wel</p>
+              </div>
+              <div class="col order-md-last order-first">
+              <p class="text-left">come</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col d-none d-md-block">
+            <div class="row">
+              <div class="col">
+                <p class="text-center">Is the text to the left one word or two?</p>
+              </div>
+              <div class="col">
+                <p class="text-center">View on mobile for the truth</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-block d-sm-none">
+            <div class="row">
+              <div class="col">
+                <p class="text-center">It was not</p>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+
+
+    </main>
     <!-- End main section -->
     <!-- Start footer section -->
     <footer class="footer">
