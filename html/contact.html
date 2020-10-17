@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Van</title>
     <!-- CSS files -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/additional.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -35,29 +36,58 @@
       </nav>
     <!-- End navbar -->
     <!-- Start main section -->
-    <main role="main" class="container">
+    <main class="container">
       <div class="row">
           <div class="col">
-              <div class="card text-center">
-                  <img class="card-img-top" src="../images/call-me.jpg" alt="Piece of paper with a number saying 'call me'">
-                  <div class="card-body">
-                    <h4 class="card-title">Call</h4>
-                    <a class="card-text" href="tel:+1-555-1234">555-1234</a>
-                  </div>
+            <form>
+              <div class="row">
+                <div class="col-md-4">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
                 </div>
-          </div>
-          <div class="col">
-              <div class="card text-center">
-                  <img class="card-img-top" src="../images/junk-mail.jpg" alt="Junk mail">
-                  <div class="card-body">
-                    <h4 class="card-title">Email</h4>
-                    <a class="card-text" href = "mailto: kai.matte@lipstick.com">kai.matte@lipstick.com</a>
-                  </div>
+                <div class="col-md-4">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Password">
+              </div>
                 </div>
+                <div class="col-md-4">
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Password">
+              </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+            </form>
           </div>
       </div>
+      
+      <div class="row social-media-links">
+        <div class="col">
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        </div>
+
+        <div class="col">
+          <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        </div>
+
+        <div class="col">
+          <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+
+        <div class="col">
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+      </div>
     </main>
-  <!-- End main section -->>
+  <!-- End main section -->
     <!-- Start footer section -->
     <footer class="footer">
         <div class="container">
