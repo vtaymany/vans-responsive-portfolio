@@ -46,7 +46,7 @@
 
 ## Screenshots
 
-![Index validation](./images/index-validation.png'Index validation')
+![Index validation](./images/index-validation.png 'Index validation')
 ![Portfolio validation](./images/portfolio-validation.png 'Portfolio validation')
 ![Contact validation](./images/contact-validation.png 'Contact validation')
 
