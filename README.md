@@ -34,15 +34,15 @@
 
 ## Installation
 
-- No installation is required. The webpage may be viewed [here](https://vtaymany.github.io/Horiseon-refactor/)
+- No installation is required. The webpage may be viewed [here](https://vtaymany.github.io/vans-responsive-portfolio/)
 
 ## Roadmap
 
-- It is advised to switch to a CSS framework such as Bootstrap or Foundation.
+- It would be beneficial to purge out the unused css from Bootstrap using tools such as PurgeCSS
 
 - If implemented correctly, doing so would allow for:
-  - responsiveness across multiple viewports
-  - performance benefits of classes and ID's while creating a more standardized and scalable method of development
+  - increased performance
+  - decreased file size
 
 ## Screenshots
 
