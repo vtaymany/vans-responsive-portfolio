@@ -2,7 +2,7 @@
 
 ## Main project goals
 
-- This project introduces the CSS framework Bootstrap to our site to improve responsiveness, uniformity, and scalability.
+- This project introduces the CSS framework Bootstrap into our site in order to improve responsiveness, uniformity, and scalability.
 
 ### HTML
 
