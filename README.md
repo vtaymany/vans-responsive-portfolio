@@ -8,7 +8,7 @@
 
 - Creates three separate html files
 
-  - index.html file demonstrates how Bootstraps responsive nature can help maintain a certain layout throughout different viewports
+  - index.html file demonstrates how Bootstraps responsive nature may help maintain a certain layout throughout different viewports
   - portfolio.html file demonstrates how Bootstraps responsive nature may help alter a certain layout depending on their viewports
   - contact.html file demonstrates Bootstraps extensive library that expands into functional components
 
