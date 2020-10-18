@@ -24,6 +24,11 @@
 
 - Uses Bootstrap as the framework
 
+  - Installs Bootstrap directly
+
+    - To experiment other ways to install css files other than those shown in class
+    - To further investigate how Bootstrap works
+
 - Minimizes the use of media queries (none was used)
 
 - Uses Bootstrap's grid system (containers, rows, and columns)
