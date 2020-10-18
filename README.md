@@ -8,6 +8,10 @@
 
 - Creates three separate html files
 
+  - index.html file demonstrates how Bootstraps responsive nature can help maintain a certain layout throughout different viewports
+  - portfolio.html file demonstrates how Bootstraps responsive nature may help alter a certain layout depending on their viewports
+  - contact.html file demonstrates Bootstraps extensive library that expands into functional components
+
 - Links the html files together via navigation links found within each page
 
 - Uses Bootstrap to create a navigation bar, responsive layout, and responsive images using html classes
